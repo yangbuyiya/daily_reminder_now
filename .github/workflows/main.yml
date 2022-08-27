@@ -7,7 +7,7 @@ name: weixin
 #    - cron: '*/1 * * * *'
 on:
   schedule:
-    - cron: '1 5 * * * ? '
+    - cron: '1 5 * * * ?'
 
 jobs:
 #将工作流程中运行的所有作业组合在一起
