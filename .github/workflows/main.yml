@@ -3,12 +3,12 @@ name: weixin
 #  workflow_dispatch:
 #  schedule:
 #    # 代表国际标准时间21点30分，北京时间需要+8小时，代表北京时间上午5点30分点运行
-##    - cron: '30 21 * * *'
+##    - cron: '22 21 * * *'
 #    - cron: '*/1 * * * *'
 on:
   workflow_dispatch:
     schedule:
-      - cron: '5 * * * *'
+      - cron: '22 21 * * *'
 
 jobs:
 #将工作流程中运行的所有作业组合在一起
